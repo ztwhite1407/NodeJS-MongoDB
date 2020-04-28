@@ -136,14 +136,8 @@ app.post("/delete", function(req, res) {
         res.redirect("/" + listName);
       }
     });
-
   }
-
-
 });
-
-
-
 
 app.get("/work", function(req, res) {
   res.render("list", {
